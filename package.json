@@ -4,7 +4,7 @@
   "description": "Server-side Rendering React from Scratch!",
   "main": "index.js",
   "scripts": {
-    "start": "yarn build && nodemon index.js",
+    "start": "node index.js",
     "build": "webpack --config webpack.config.js"
   },
   "author": "Rohit kumar",
