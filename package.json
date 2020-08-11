@@ -4,8 +4,12 @@
   "description": "Server-side Rendering React from Scratch!",
   "main": "index.js",
   "scripts": {
+    "dev": "react-scripts start",
     "start": "yarn build && node index.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "heroku-postbuild": "npm run build"
   },
   "author": "Rohit kumar",
   "license": "MIT",
