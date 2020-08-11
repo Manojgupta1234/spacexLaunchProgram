@@ -12,7 +12,7 @@ app.use('/assets', express.static(path.resolve(__dirname, 'assets')));
 // hide powered by express
 app.disable('x-powered-by');
 // start the server
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000, function(){console.log('run at ' + this.address().port, app.settings.env)});
 
 let initialState = {
   isFetching: false,
