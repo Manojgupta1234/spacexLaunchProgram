@@ -11,7 +11,7 @@
       "eject": "react-scripts eject",
       "heroku-postbuild": "npm run build"
   },
-  "author": "Rohit kumar",
+  "author": "Manoj Gupta",
   "license": "MIT",
   "dependencies": {
     "@babel/register": "^7.8.6",
